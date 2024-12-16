@@ -1,0 +1,20 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+<body>
+    <h1>Willkommen zur Flask App!</h1>
+    <p>{{ greeting }}</p>
+
+    <form method="get">
+        <label for="name">Gib deinen Namen ein:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Begrüßung</button>
+    </form>
+</body>
+</html>
